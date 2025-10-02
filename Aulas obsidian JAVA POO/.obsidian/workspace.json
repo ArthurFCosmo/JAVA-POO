@@ -11,10 +11,17 @@
             "id": "df07a0aef2674dec",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nova aba"
+              "type": "canvas",
+              "state": {
+                "file": "Mapa mental.canvas",
+                "viewState": {
+                  "x": 536,
+                  "y": 59,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Mapa mental"
             }
           }
         ]
@@ -163,5 +170,7 @@
     }
   },
   "active": "df07a0aef2674dec",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Mapa mental.canvas"
+  ]
 }

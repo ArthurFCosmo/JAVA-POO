@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"472e2531eb6ad175","x":-440,"y":-146,"width":400,"height":400,"type":"file","file":"Java POO 1 - Introdução.md"},
-		{"id":"0a9fd227ae2a934e","x":160,"y":-146,"width":400,"height":400,"type":"file","file":"Java POO 2 - O que é POO.md"}
-	],
-	"edges":[
-		{"id":"578ae2c290c18d3d","fromNode":"472e2531eb6ad175","fromSide":"right","toNode":"0a9fd227ae2a934e","toSide":"left"}
-	]
-}
