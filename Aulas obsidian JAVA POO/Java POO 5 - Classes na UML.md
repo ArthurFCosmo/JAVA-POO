@@ -19,4 +19,4 @@ Todas as letras minúsculas = Atributo
 
 Ex:
 
-![[{9E21031E-BD0C-4B31-97E5-0FA7F588626B}.png]]
+![[{9E21031E-BD0C-4B31-97E5-0FA7F588626B} 1.png]]
