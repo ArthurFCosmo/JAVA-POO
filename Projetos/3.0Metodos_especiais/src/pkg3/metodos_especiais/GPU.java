@@ -41,7 +41,7 @@ public class GPU {
     public String getModelo(){
         return this.modelo;
     }
-    
+        
     public String getAtividade(){
         return this.atividade;
     }
