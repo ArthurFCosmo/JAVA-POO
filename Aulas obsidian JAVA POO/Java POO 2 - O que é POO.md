@@ -9,7 +9,7 @@ Temos 6 principais vantagens da POO:
 
 - CONFIABILIDADE: Ao alterar uma parte de um software, nenhuma outra é afetada. O isolamento das partes de um software o torna mais confiável. Por mais que você modifique, ou remova as partes de um software, ele deve continuar funcionando.
 
-- OPORTUNISMO: Ai dividir um software em partes, cada uma delas pode ser desenvolvida em paralelo, por grupos de desenvolvedores diferentes.
+- OPORTUNISMO: Ao dividir um software em partes, cada uma delas pode ser desenvolvida em paralelo, por grupos de desenvolvedores diferentes.
 
 - MANUTENÇÃO: Essas estratégias tornam mais fácil a manutenção do software.
 
