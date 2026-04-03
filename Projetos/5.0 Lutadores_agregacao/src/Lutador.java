@@ -24,6 +24,21 @@ public class Lutador {
 
         this.setCategoria(); // ESSENCIAL
 }
+    
+    // MÉTODO PARA EXIBIR STATUS DO LUTADOR
+    
+    public void status() {
+         System.out.println("------------ " + this.getNome() + " ------------");
+         System.out.println("Peso: " + this.getPeso());
+         System.out.println("Idade: " + this.getIdade());
+         System.out.println("Categoria: " + this.getCategoria());
+         System.out.println("Vitorias: " + this.getVitorias());
+         System.out.println("Empates: " + this.getEmpates());
+         System.out.println("Derrotas: " + this.getDerrotas());
+         System.out.println("-------------------------------------------");
+    }
+        
+    // GETTERS E SETTERS
 
     public String getNome() {
         return nome;
@@ -60,13 +75,13 @@ public class Lutador {
         } else if (this.getPeso() > 80) {
             this.categoria = "Meio pesado";
         } else if (this.getPeso() > 70) {
-            this.categoria = "Médio";
+            this.categoria = "Medio";
         } else if (this.getPeso() > 60) {
             this.categoria = "Leve";
         } else if (this.getPeso() > 50) {
             this.categoria = "Mosca";
         } else {
-            this.categoria = "Átomo";
+            this.categoria = "Atomo";
         }
     }
 
@@ -94,17 +109,21 @@ public class Lutador {
         this.derrotas = derrotas;
     }
     
-    // MÉTODO PARA EXIBIR STATUS DO LUTADOR
+    // MÉTODO PARA REGISTRAR AS ESTATÍSTICAS
     
-    void status() {
-         System.out.println("------------ STATUS DO LUTADOR ------------");
-         System.out.println("Nome: " + this.getNome());
-         System.out.println("Peso: " + this.getPeso());
-         System.out.println("Idade: " + this.getIdade());
-         System.out.println("Categoria: " + this.getCategoria());
-         System.out.println("Vitórias: " + this.getVitorias());
-         System.out.println("Empates: " + this.getEmpates());
-         System.out.println("Derrotas: " + this.getDerrotas());
-         System.out.println("-------------------------------------------");
-    }    
+    public void vencer() {
+        this.setVitorias(++vitorias);
+    }
+
+    public void empatar() {
+        this.setEmpates(++empates);
+        
 }
+
+    public void perder() {
+        this.setDerrotas(++derrotas);
+}
+    
+}
+
+    
