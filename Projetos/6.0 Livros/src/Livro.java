@@ -1,5 +1,5 @@
 
-public class Livro {
+public class Livro implements InterfaceLivro {
     private String titulo;
     private String autor;
     private int totpaginas;
@@ -68,7 +68,47 @@ public class Livro {
         this.leitor = leitor;
     }
     
-    // METODOS ESPECIAIS
+    // METODOS ESPECIAIS DA INTERFACE
+
+    @Override
+    public void abrir() {
+        this.setAberto(true);
+        System.out.println("Livro aberto.");
+    }
+
+    @Override
+    public void fechar() {
+        this.setAberto(false);
+        System.out.println("Livro fechado.");
+    }
+
+    @Override
+    public void folhear(int folha) {
+        if (folha < this.getTotpagnias()) {
+            this.setPagatual(folha);
+        } else {
+            System.out.println("Impossível folhear dessa forma.");
+        }
+    }
+
+    @Override
+    public void avancarpag() {
+        this.setPagatual(++pagatual);
+    }
+
+    @Override
+    public void voltarpag() {
+        this.setPagatual(--pagatual);
+    }
     
-    
+    @Override
+    public void detalhes() {
+        System.out.println("------------ " + this.getTitulo() + " ------------");
+        System.out.println("Autor: " + this.getAutor());
+        System.out.println("Total de pags: " + this.getTotpagnias());
+        System.out.println("Pag atual: " + this.getPagatual());
+        System.out.println("Leitor: " + this.leitor.getNome());
+        System.out.println("Aberto? " + this.isAberto());
+        System.out.println("------------------------------------");
+    }
 }

@@ -19,7 +19,7 @@ Então para isso existe o atendente do caixa, que é um funcionário (confiável
 
 ## 💠Métodos Construtores
 
-Os métodos construtores tem um conceito um pouco mais simples, eles servem para definir atributos padrão na criação de uma classe, ou para criar uma classe mais rapidamente, através de parâmetros
+Os métodos construtores tem um conceito um pouco mais simples, eles servem para definir atributos padrão na criação de uma classe, ou para criar uma classe mais rapidamente, através de parâmetros.
 
 ---
 ## 💠Métodos especiais na prática
@@ -98,5 +98,76 @@ public GPU(String modelo) {
 ```
 
 
+## 💠Interfaces
+
+As **interfaces** em Java são um recurso extremamente importante dentro da programação orientada a objetos, pois permitem definir um **contrato** que outras classes devem seguir.
+
+De forma simples:  
+Uma interface diz _“se você implementar isso, você obrigatoriamente terá esses comportamentos”_.
+
+---
+
+### 🔹 O que é uma Interface?
+
+Uma interface é como um molde de métodos **sem implementação** (na maioria dos casos), ou seja, ela apenas declara _o que deve ser feito_, mas não _como deve ser feito_.
+
+Exemplo básico:
+
+```java
+public interface Controlador {  
+    public void ligar();  
+    public void desligar();  
+    public void abrirMenu();  
+    public void fecharMenu();  
+}
+```
+
+Aqui criamos uma interface chamada `Controlador`, que define 4 métodos.  
+Qualquer classe que implementar essa interface será obrigada a criar esses métodos.
+
+---
+
+### 🔹 Como implementar uma Interface?
+
+Para usar uma interface em uma classe, utilizamos a palavra-chave `implements`.
+  
+```java
+public class ControleRemoto implements Controlador {  
+  
+private boolean ligado;  
+  
+@Override  
+public void ligar() {  
+this.ligado = true;  
+}  
+  
+@Override  
+public void desligar() {  
+this.ligado = false;  
+}  
+  
+@Override  
+public void abrirMenu() {  
+System.out.println("Menu aberto");  
+}  
+  
+@Override  
+public void fecharMenu() {  
+System.out.println("Menu fechado");  
+}  
+}
+```
+
+🔸 Note o uso do `@Override`:  
+Ele indica que estamos sobrescrevendo um método da interface (boa prática e ajuda a evitar erros).
+
+### 🔹 Por que usar Interfaces?
+
+Interfaces são muito usadas para:
+
+✔ Padronizar comportamentos  
+✔ Reduzir acoplamento no código  
+✔ Facilitar manutenção e escalabilidade  
+✔ Permitir múltiplas implementações diferentes
 
 
