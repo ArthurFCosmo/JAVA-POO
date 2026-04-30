@@ -18,7 +18,9 @@ public class Luta {
         this.desafiado = desafiado;
         this.setStatus("Tudo Ok");
         this.setCategoria();
-        this.rounds = rounds;
+        if (rounds < 1) {
+            this.rounds = 1;
+        }
     }
     
     // MÉTODO PARA EXIBIR CARD DA LUTA

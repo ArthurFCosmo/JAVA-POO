@@ -27,11 +27,14 @@ public class Caneta {
     void rabiscar(){
         if (tampada == true) {
             System.out.println("Impossivel rabiscar: Caneta tampada.");
-        } else if (carga <= 0) {
+        } else if (carga == 0) {
             System.out.println("Impossivel rabiscar: Caneta sem carga");
         } else {
             System.out.println("Estou rabiscando...");
             carga -= 20;
+            if (carga < 0) {
+                carga = 0;
+            }
         }
     }
     

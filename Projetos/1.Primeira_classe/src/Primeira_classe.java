@@ -13,7 +13,6 @@ public class Primeira_classe {
         
         c1.status(); // Usando método que printa o status na tela
         
-        
         String resposta = ""; // Criando variável que receberá resposta do usuário dentro do laço
         
         while (!"5".equals(resposta)){ // Definindo condição de parada do laço (escolher a opção 5)
@@ -42,5 +41,4 @@ public class Primeira_classe {
             }
         }
     }
-    
 }
