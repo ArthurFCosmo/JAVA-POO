@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Projetos/1.Primeira_classe/1.Primeira_classe.iml" filepath="$PROJECT_DIR$/Projetos/1.Primeira_classe/1.Primeira_classe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/2.Primeira_classe_visibilidade/2.Primeira_classe_visibilidade.iml" filepath="$PROJECT_DIR$/Projetos/2.Primeira_classe_visibilidade/2.Primeira_classe_visibilidade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/3.0Metodos_especiais/3.0Metodos_especiais.iml" filepath="$PROJECT_DIR$/Projetos/3.0Metodos_especiais/3.0Metodos_especiais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/3.1.Metodos_especiais_frontend/3.1.Metodos_especiais_frontend.iml" filepath="$PROJECT_DIR$/Projetos/3.1.Metodos_especiais_frontend/3.1.Metodos_especiais_frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/4.0.Banco_simples/4.0.Banco_simples.iml" filepath="$PROJECT_DIR$/Projetos/4.0.Banco_simples/4.0.Banco_simples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/5.0 Lutadores_agregacao/5.0 Lutadores_agregacao.iml" filepath="$PROJECT_DIR$/Projetos/5.0 Lutadores_agregacao/5.0 Lutadores_agregacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/6.0 Livros/6.0 Livros.iml" filepath="$PROJECT_DIR$/Projetos/6.0 Livros/6.0 Livros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/7.0 Heranca/7.0 Heranca.iml" filepath="$PROJECT_DIR$/Projetos/7.0 Heranca/7.0 Heranca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/8.0.Polimorfismo/8.0.Polimorfismo.iml" filepath="$PROJECT_DIR$/Projetos/8.0.Polimorfismo/8.0.Polimorfismo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/9.0.Projeto_final/9.0.Projeto_final.iml" filepath="$PROJECT_DIR$/Projetos/9.0.Projeto_final/9.0.Projeto_final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA-POO.iml" filepath="$PROJECT_DIR$/.idea/JAVA-POO.iml" />
+    </modules>
+  </component>
+</project>
